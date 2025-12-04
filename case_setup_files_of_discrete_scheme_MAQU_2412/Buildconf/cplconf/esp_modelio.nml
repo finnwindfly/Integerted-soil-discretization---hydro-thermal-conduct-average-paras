@@ -1,0 +1,13 @@
+&modelio
+  diri = "/public/home/cuit_lsh/cesm2.2/result/discrete_scheme_MAQU_2412/bld/esp"
+  diro = "/public/home/cuit_lsh/cesm2.2/result/discrete_scheme_MAQU_2412/run"
+  logfile = "esp.log.251201-100613"
+/
+&pio_inparm
+  pio_netcdf_format = ""
+  pio_numiotasks = -99
+  pio_rearranger = -99
+  pio_root = -99
+  pio_stride = -99
+  pio_typename = "nothing"
+/

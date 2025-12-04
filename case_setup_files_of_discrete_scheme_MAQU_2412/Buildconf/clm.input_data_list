@@ -1,0 +1,8 @@
+fsnowaging = /public/home/cuit_lsh/cesm2.2/inputdata/lnd/clm2/snicardata/snicar_drdt_bst_fit_60_c070416.nc
+fsnowoptics = /public/home/cuit_lsh/cesm2.2/inputdata/lnd/clm2/snicardata/snicar_optics_5bnd_c090915.nc
+fsurdat = /public/home/cuit_lsh/cesm2.2/inputdata/surfdata/surfdata_1x1_MAQU_hist_16pfts_Irrig_CMIP6_simyr2000_c241127_modified_obs+dai.nc
+finidat = /public/home/cuit_lsh/cesm2.2/inputdata/initdata_run/discrete_scheme_MAQU_2412_only_sas.clm2.r.2023-09-30-00000.nc
+fatmlndfrc = /public/home/cuit_lsh/cesm2.2/inputdata/share/domains/domain.lnd.1x1_MAQU_noocean.nc
+paramfile = /public/home/cuit_lsh/cesm2.2/inputdata/lnd/clm2/paramdata/clm5_params.c200624.nc
+stream_fldfilename_urbantv = /public/home/cuit_lsh/cesm2.2/inputdata/lnd/clm2/urbandata/CLM50_tbuildmax_Oleson_2016_0.9x1.25_simyr1849-2106_c160923.nc
+megan_factors_file = /public/home/cuit_lsh/cesm2.2/inputdata/atm/cam/chem/trop_mozart/emis/megan21_emis_factors_78pft_c20161108.nc

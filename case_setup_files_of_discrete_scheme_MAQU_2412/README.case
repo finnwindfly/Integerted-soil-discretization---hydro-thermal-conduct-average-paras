@@ -1,0 +1,78 @@
+2024-12-15 20:01:17: ./create_clone --case discrete_scheme_MAQU_2412 --clone discret_MAQU_2412
+ ---------------------------------------------------
+2024-12-15 20:01:17: Compset longname is 2000_DATM%1PT_CLM50%SP_SICE_SOCN_SROF_SGLC_SWAV_SIAC_SESP
+ ---------------------------------------------------
+2024-12-15 20:01:17: Compset specification file is /public/home/cuit_lsh/cesm2.2/cime/../components/clm//cime_config/config_compsets.xml
+ ---------------------------------------------------
+2024-12-15 20:01:17: Pes     specification file is /public/home/cuit_lsh/cesm2.2/cime/../components/clm//cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2024-12-02 14:39:07: ./create_clone --case discret_MAQU_2412 --clone discret_MAQU_2411
+ ---------------------------------------------------
+2024-12-02 14:39:07: Compset longname is 2000_DATM%1PT_CLM50%SP_SICE_SOCN_SROF_SGLC_SWAV_SIAC_SESP
+ ---------------------------------------------------
+2024-12-02 14:39:07: Compset specification file is /public/home/cuit_lsh/cesm2.2/cime/../components/clm//cime_config/config_compsets.xml
+ ---------------------------------------------------
+2024-12-02 14:39:07: Pes     specification file is /public/home/cuit_lsh/cesm2.2/cime/../components/clm//cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2024-11-01 22:08:55: ./create_clone --case discret_MAQU_2411 --clone maqu_test
+ ---------------------------------------------------
+2024-11-01 22:08:55: Compset longname is 2000_DATM%1PT_CLM50%SP_SICE_SOCN_SROF_SGLC_SWAV_SIAC_SESP
+ ---------------------------------------------------
+2024-11-01 22:08:55: Compset specification file is /public/home/cuit_lsh/cesm2.2/cime/../components/clm//cime_config/config_compsets.xml
+ ---------------------------------------------------
+2024-11-01 22:08:55: Pes     specification file is /public/home/cuit_lsh/cesm2.2/cime/../components/clm//cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2024-10-28 09:30:16: ./create_newcase --case maqu_test --res CLM_USRDAT --compset I1PtClm50SpRsGs --mach cdcs --run-unsupported
+ ---------------------------------------------------
+2024-10-28 09:30:16: Compset longname is 2000_DATM%1PT_CLM50%SP_SICE_SOCN_SROF_SGLC_SWAV_SIAC_SESP
+ ---------------------------------------------------
+2024-10-28 09:30:16: Compset specification file is /public/home/cuit_lsh/cesm2.2/components/clm//cime_config/config_compsets.xml
+ ---------------------------------------------------
+2024-10-28 09:30:16: Pes     specification file is /public/home/cuit_lsh/cesm2.2/components/clm//cime_config/config_pes.xml
+ ---------------------------------------------------
+2024-10-28 09:30:16: Forcing is 1972-2004
+ ---------------------------------------------------
+2024-10-28 09:30:16: Using None coupler instances
+ ---------------------------------------------------
+2024-10-28 09:30:16: Component ATM is  Data driven ATM single point tower site data set 
+ ---------------------------------------------------
+2024-10-28 09:30:16: ATM_GRID is CLM_USRDAT
+ ---------------------------------------------------
+2024-10-28 09:30:16: Component LND is clm5.0:Satellite phenology:
+ ---------------------------------------------------
+2024-10-28 09:30:16: LND_GRID is CLM_USRDAT
+ ---------------------------------------------------
+2024-10-28 09:30:16: Component ICE is Stub ice component
+ ---------------------------------------------------
+2024-10-28 09:30:16: ICE_GRID is null
+ ---------------------------------------------------
+2024-10-28 09:30:16: Component OCN is Stub ocn component
+ ---------------------------------------------------
+2024-10-28 09:30:16: OCN_GRID is null
+ ---------------------------------------------------
+2024-10-28 09:30:16: Component ROF is Stub river component
+ ---------------------------------------------------
+2024-10-28 09:30:16: ROF_GRID is null
+ ---------------------------------------------------
+2024-10-28 09:30:16: Component GLC is Stub glacier (land ice) component
+ ---------------------------------------------------
+2024-10-28 09:30:16: GLC_GRID is null
+ ---------------------------------------------------
+2024-10-28 09:30:16: Component WAV is Stub wave component
+ ---------------------------------------------------
+2024-10-28 09:30:16: WAV_GRID is null
+ ---------------------------------------------------
+2024-10-28 09:30:16: Component IAC is Stub iac component
+ ---------------------------------------------------
+2024-10-28 09:30:16: IAC_GRID is null
+ ---------------------------------------------------
+2024-10-28 09:30:16: Component ESP is Stub external system processing (ESP) component
+ ---------------------------------------------------
+2024-10-28 09:30:16: ESP_GRID is None
+ ---------------------------------------------------

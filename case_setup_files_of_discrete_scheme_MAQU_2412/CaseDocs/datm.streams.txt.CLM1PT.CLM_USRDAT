@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<file id="stream" version="1.0">
+<dataSource>
+   GENERIC
+</dataSource>
+<domainInfo>
+  <variableNames>
+     time    time
+        xc      lon
+        yc      lat
+        area    area
+        mask    mask
+  </variableNames>
+  <filePath>
+     /public/home/cuit_lsh/cesm2.2/inputdata/share/domains
+  </filePath>
+  <fileNames>
+     domain.lnd.1x1_MAQU_noocean.nc
+  </fileNames>
+</domainInfo>
+<fieldInfo>
+   <variableNames>
+     ZBOT     z
+        TBOT     tbot
+        RH       rh
+        WIND     wind
+        PRECTmms precn
+        FSDS     swdn
+        PSRF     pbot
+        FLDS     lwdn
+   </variableNames>
+   <filePath>
+     /public/home/cuit_lsh/cesm2.2/inputdata/forcedata/1x1_MAQU_20241125
+   </filePath>
+   <fileNames>
+           2022-06.nc
+           2022-07.nc
+           2022-08.nc
+           2022-09.nc
+           2022-10.nc
+           2022-11.nc
+           2022-12.nc
+           2023-01.nc
+           2023-02.nc
+           2023-03.nc
+           2023-04.nc
+           2023-05.nc
+           2023-06.nc
+           2023-07.nc
+           2023-08.nc
+           2023-09.nc
+   </fileNames>
+   <offset>
+      0
+   </offset>
+</fieldInfo>
+</file>

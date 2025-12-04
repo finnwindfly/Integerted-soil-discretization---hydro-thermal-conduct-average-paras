@@ -1,0 +1,7 @@
+&comp_inparm 
+
+streams="datm.streams.txt.CLM1PT.CLM_USRDAT 2022 2022 2023"
+
+"datm.streams.txt.presaero.clim_2000 1 2000 2000"
+
+/ 

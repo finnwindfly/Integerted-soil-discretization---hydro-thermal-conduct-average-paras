@@ -1,0 +1,17 @@
+&drydep_inparm
+/
+&megan_emis_nl
+ megan_factors_file = '/public/home/cuit_lsh/cesm2.2/inputdata/atm/cam/chem/trop_mozart/emis/megan21_emis_factors_78pft_c20161108.nc'
+ megan_specifier = 'ISOP = isoprene', 'C10H16 = pinene_a + carene_3 + thujene_a', 'CH3OH = methanol', 'C2H5OH = ethanol',
+         'CH2O = formaldehyde', 'CH3CHO = acetaldehyde', 'CH3COOH = acetic_acid', 'CH3COCH3 = acetone'
+/
+&fire_emis_nl
+/
+&carma_inparm
+/
+!#--------------------------------------------------------------------------------------------------------------------------
+!# drv_flds_in:: Comment:
+!# This namelist was created using the following command-line:
+!#     /public/home/cuit_lsh/cesm2.2/components/clm/bld/CLM build-namelist -cimeroot /public/home/cuit_lsh/cesm2.2/cime/scripts/Tools/../.. -infile /public/home/cuit_lsh/cesm2.2/cime/scripts/discrete_scheme_MAQU_2412/Buildconf/clmconf/namelist -csmdata /public/home/cuit_lsh/cesm2.2/inputdata -inputdata /public/home/cuit_lsh/cesm2.2/cime/scripts/discrete_scheme_MAQU_2412/Buildconf/clm.input_data_list -ignore_ic_date -namelist &clm_inparm  start_ymd=20220601 /  -use_case 2000_control -res 1x1_MAQU -clm_usr_name 1x1_MAQU -clm_start_type default -envxml_dir /public/home/cuit_lsh/cesm2.2/cime/scripts/discrete_scheme_MAQU_2412 -configuration clm -structure standard -lnd_frac /public/home/cuit_lsh/cesm2.2/inputdata/share/domains/domain.lnd.1x1_MAQU_noocean.nc -glc_nec 10 -co2_ppmv 367.0 -co2_type constant -config /public/home/cuit_lsh/cesm2.2/cime/scripts/discrete_scheme_MAQU_2412/Buildconf/clmconf/config_cache.xml -bgc sp -clm_accelerated_spinup off -lnd_tuning_mode clm5_0_CRUv7
+!# For help on options use: /public/home/cuit_lsh/cesm2.2/components/clm/bld/CLM build-namelist -help
+!#--------------------------------------------------------------------------------------------------------------------------

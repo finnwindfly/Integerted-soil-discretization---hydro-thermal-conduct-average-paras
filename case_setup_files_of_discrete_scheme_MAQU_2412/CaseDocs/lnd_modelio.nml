@@ -1,0 +1,13 @@
+&modelio
+  diri = "/public/home/cuit_lsh/cesm2.2/result/discrete_scheme_MAQU_2412/bld/lnd"
+  diro = "/public/home/cuit_lsh/cesm2.2/result/discrete_scheme_MAQU_2412/run"
+  logfile = "lnd.log.251201-100613"
+/
+&pio_inparm
+  pio_netcdf_format = "64bit_offset"
+  pio_numiotasks = -99
+  pio_rearranger = 1
+  pio_root = 1
+  pio_stride = 32
+  pio_typename = "netcdf"
+/

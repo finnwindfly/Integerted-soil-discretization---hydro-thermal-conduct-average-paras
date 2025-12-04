@@ -1,0 +1,15 @@
+&comp_inparm 
+
+hist_nhtfrq = -24
+
+hist_mfilt = 486
+
+use_bedrock = .false.
+
+fsurdat = '/public/home/cuit_lsh/cesm2.2/inputdata/surfdata/surfdata_1x1_MAQU_hist_16pfts_Irrig_CMIP6_simyr2000_c241127_modified_obs+dai.nc'
+
+finidat = '/public/home/cuit_lsh/cesm2.2/inputdata/initdata_run/discrete_scheme_MAQU_2412_only_sas.clm2.r.2023-09-30-00000.nc'
+
+
+
+/ 
